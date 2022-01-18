@@ -1,0 +1,40 @@
+.panels {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px 8px 10px 8px;
+	box-shadow: 0px 2px 10px #0000003d;
+	border-bottom: 1px solid rgb(97, 97, 97);
+	width: 330px;
+	margin: 0 auto;
+}
+
+.upper-part h4 {
+	color: var(--main-color);
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.lower-part {
+	display: flex;
+	column-gap: 15px;
+}
+
+.lower-part .section {
+	column-gap: 5px;
+	display: flex;
+}
+
+.section p,
+.section select {
+	font-size: 15px;
+}
+
+.section select {
+	border-radius: 5px;
+	text-align: center;
+}
